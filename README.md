@@ -3,8 +3,9 @@
 
 Group 164
 
-Oira Daisy Nyaboke (3035604477)
-Arun Kaza (3035435618)
+@daisy-dotcom | Oira Daisy Nyaboke (3035604477)
+
+@kazaarun | Arun Kaza (3035435618)
 
 The text-based game will be a guessing game where the first letters of the words of a well-known part of 
 a song will be displayed. There will be a delay between the output of two adjacent letters that will reflect
