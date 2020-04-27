@@ -27,7 +27,7 @@ chosen. The number of the song correctly guessed will be added to the array.
 ### 3. Data Structures for Storing Game Status & File Input/Output
 
 When the player chooses to save their current game, the player's progress out of the total number of song titles to be guessed 
-will be stored as an integer e.g ( 3/8 ; 3 out of 8 songs correctly guessed for an expert ) and the number of the the correclty
+will be stored as an integer e.g ( 3/8 ; 3 out of 8 songs correctly guessed for an expert ) and the number of the the correctly
 guessed songs will be determined from the aforementioned dymanic array. Another integer variable will store the current score. This information will be saved in a file, save.txt. To load a saved game, the program will first determine whether the file exists and if it does, proceeds to continue the game.
 
 ### 4. Program Codes in Multiple Files
