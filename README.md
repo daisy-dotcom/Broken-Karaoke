@@ -22,7 +22,7 @@ have the player guess. The songs will be numbered from 1 - 8.
 
 In order to keep track of the songs already guessed by the player a dynamic array will be initilized at the start 
 of the game. Its size will correspond to the total number of songs to be guessed based on the level of difficulty
-chosen. The number of the song correctly guessed will be added to the array. The dynamic array will be used in the fucntion reload_game to add the already guessed songs to the array and the function play_game to update the array with the song being guessed.
+chosen. The number of the song correctly guessed will be added to the array. The dynamic array will be used in the func:tion reload_game to add the already guessed songs to the array and the function play_game to update the array with the song being guessed.
 
 ### 3. Data Structures for Storing Game Status & File Input/Output
 
