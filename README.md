@@ -10,13 +10,11 @@ Group 164
 The text-based game is a guessing game where the first letters of the words of a well-known part of 
 a song will be displayed. There is a delay between the output of two adjacent letters that will reflect
 the time interval between the words in the actual song. The goal of the game is to guess the title of the song
-based on this information. An added hint ,the first letter of words in the title of the song, will be given upon the players request. However, requesting them will result in a reduction of points. This game is inspired from the *Broken Karaoke* segment of the quiz show *Richard Osman's House of Games* (Bartlett, 2017). Each correct answer would increase the score by 10 points. Each clue costs 3 ponts.
+based on this information. An added hint ,the first letter of words in the title of the song, will be given upon the players request. However, requesting them will result in a reduction of points. Each correct answer would increase the score by 10 points. Each clue costs 3 ponts. This game is inspired from the *Broken Karaoke* segment of the quiz show *Richard Osman's House of Games* (Bartlett, 2017).
 
 ### 1. Generation of Random Game Sets/Events
 
-There will be 3 levels of difficulty namely beginner, intermidiate and expert, this selection will be made in the function main_menu. They will guess 2, 4 and 8 song 
-titles respectively from a set of eight songs. A random number generator (rng.cpp) will be used to select which song to 
-have the player guess. The songs will be numbered from 1 - 8.
+There will be 3 levels of difficulty, namely, beginner, intermidiate and expert and this selection will be made in the function main_menu. They will guess 2, 4 and 8 song titles respectively from a set of eight songs. A random number generator (rng.cpp) will be used to select which song to have the player guess. The songs will be numbered from 1 - 8.
 
 ### 2. Dynamic Memory Management
 
@@ -35,11 +33,11 @@ guessed songs will be determined from the aforementioned dynamic array. Another 
 There are separate files for functions controlling the main menu the game (main_menu.cpp), song selection (pick_song.cpp), game play (play_game.cpp), saving the current game (save_game.cpp) and the reloading of a
 saved game (reload_game.cpp). 
 
-## 5. Compilation and Execution
+### 5. Compilation and Execution
 
 Simply make the makefile then run *game*.
 
-References
+### References
 
 Bartlett, O. (Director). (2017). Richard Osman's House of Games [Television Series]. United Kingdom: BBC Two.
 
