@@ -6,7 +6,7 @@
 using namespace std;
 
 
-// Player chooses game settings 
+// Player chooses game settings
 void main_menu(){
 
         int choice, size, round, points;
@@ -49,6 +49,21 @@ void main_menu(){
 
                         }
 
+                        cout << "      Choose a genre\n"
+                                "         1. Pop\n"
+                                "         2. R&B\n"
+                                "         3. Hip Hop/Rap\n"
+                                "         4. Rock\n"
+                                int genre;
+                                cin >> genre;
+
+                        while ( genre < 0 || genre > 4) {
+                          cout << "       Invalid Input! Try again" << endl;
+                          cin >> genre;
+                        }
+
+
+
                                 round = 1;
                                 switch(level){
 
@@ -68,8 +83,8 @@ void main_menu(){
 
                                 int *a = new int [size];
                                 points = 0;
-                                play_game(a, size, round, points);
-				
+                                play_game(a, size, genre, round, points);
+
 				delete [] a;
 
                                 return;
@@ -84,7 +99,7 @@ void main_menu(){
                         else{
                                 return;
                         }
-                } 
+                }
 
                 else {
                         cout << "       Invalid Input! Try Again." << endl;

@@ -7,12 +7,12 @@
 
 using namespace std;
 // Player can guess the name of the song
-void play_game(int a[], int size, int round, int points){
+void play_game(int a[], int size, int genre, int round, int points){
 
 
         while ( round <= size ){
 
-                Game_Data song = pick_song(a, size, round);
+                Game_Data song = pick_song(a, size, genre, round);
 
                 string answer ;
 
@@ -69,7 +69,7 @@ void play_game(int a[], int size, int round, int points){
                         }
 
                         if (save == 'S'){
-                                save_game(a, size, round, points);
+                                save_game(a, size, genre, round, points);
                                 return;
                         }
                 }
