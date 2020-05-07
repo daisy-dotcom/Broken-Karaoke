@@ -34,14 +34,18 @@ int reload_game(){
                                 break;
 
                                 case 2 :
-                                round = stoi(input);
+                                genre = stoi(input);
                                 break;
 
                                 case 3 :
-                                points = stoi(input);
+                                round = stoi(input);
                                 break;
 
                                 case 4 :
+                                points = stoi(input);
+                                break;
+
+                                case 5 :
 				                        played = input;
                                 break;
 
