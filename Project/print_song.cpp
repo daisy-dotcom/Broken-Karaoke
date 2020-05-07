@@ -241,19 +241,28 @@ Game_Data print_song( int num, int genre){
             break;
 
             case 6 :
-            song = {"I C H A"
-                    "D Y T A M N A T"
-                    "D Y T A M N A T"
-                    "C I C H A"
-                    "I I H A"};
+            song = {"I 0.20 C 0.23 H 0.23 A 1.63 endl "
+                    "D 0.19 Y 0.18 T 0.17 A 0.18 M 0.20 N 0.20 A 0.34 T 1.29 endl "
+                    "D 0.18 Y 0.20 T 0.17 A 0.22 M 0.22 N 0.25 A 0.21 T 1.71 endl "
+                    "C 0.65 I 0.20 C 0.23 H 0.23 A 1.13 endl "
+                    "I 0.21 I 0.54 H 0.73 A endl ",
+                    "homecoming", "H"};
             break;
 
             case 7 :
-            song = {};
+            song = {"C 0.79 O 0.34 C 0.69 M 0.24 M 0.30 T 0.24 I 0.26 S 0.67 endl "
+                    "I 0.21 G 0.23 B 0.22 H 0.21 I 0.23 M 0.20 H 0.52 A 0.20 M 0.24 H 0.44 T 0.23 I 0.25 D 0.36 endl "
+                    "I 0.18 M 0.17 M 0.23 C 0.33 B 0.64 K 2.24 endl "
+                    "I 0.18 M 0.17 M 0.23 C 0.33 B 0.64 K endl ",
+                    "cocoa butter kisses", "C B K"};
             break;
 
             case 8 :
-            song = {};
+            song = {"B 0.18 B 0.18 B 0.69 C 0.33 Y 0.29 S 0.64 endl "
+                    "S 0.64 Y 0.21 W 0.21 J 0.20 H 0.70 M 0.60 endl "
+                    "A 0.23 I 0.28 J 0.22 L 0.19 Y 0.24 F 0.64 W 0.84 endl "
+                    "G 0.24 T 0.19 W 0.18 T 0.20 B 0.28 A 0.18 Y 0.17 S 0.26 P endl ",
+                    "hypnotize", "H"};
             break;
 
           }
@@ -274,19 +283,37 @@ Game_Data print_song( int num, int genre){
             break;
 
             case 2 :
-            song = {};
+            song = {"B 0.30 Y 0.30 A 0.29 B 0.27 M 0.19 A 0.32 B 0.44 N 0.39 endl "
+                    "P 0.21 I 0.17 T 0.37 S 0.33 G 0.32 B 0.34 A 0.29 B 0.43 M 0.47 S 0.32 endl "
+                    "Y 0.24 G 0.15 M 0.28 O 0.14 Y 0.72 F 0.35 Y 0.29 B 0.77 D 0.35 endl "
+                    "K 0.33 Y 0.37 C 0.36 A 0.21 O 0.14 T 0.12 P 0.81 S 0.30 endl "
+                    "W 0.78 W 0.80 W 0.65 W 0.69 R 0.32 Y 2.71 endl "
+                    "W 0.78 W 0.80 W 0.65 W 0.69 R 0.32 Y endl ",
+                    "we will rock you", "W W R Y"};
             break;
 
             case 3 :
-            song = {};
+            song = {"P 1.68 P 0.47 D 0.51 O 0.25 M 0.89 endl "
+                    "P 0.45 D 0.56 O 0.25 Y 0.61 N 0.20 M 0.22 A 0.39 F 1.57 endl "
+                    "U 0.47 P 1.41 T 0.36 B 0.20 A 0.38 B 0.56 D 0.80 endl "
+                    "S 0.22 A 0.22 F 0.55 I 0.24 T 0.94 endl "
+                    "P 0.47 P 0.47 O 0.40 S endl ",
+                    "under pressure", "U P"};
             break;
 
             case 4 :
-            song = {};
+            song = {"H 0.64 J 2.13 D 0.42 M 0.36 I 0.35 B 2.47 endl "
+                    "T 0.35 A 0.36 S 0.91 S 1.32 A 0.28 M 0.44 I 0.46 B 2.73 endl "
+                    "R 1.63 T 0.34 L 0.29 H 0.19 I 0.90 Y 0.19 H 1.63 endl "
+                    "T 0.30 Y 0.40 C 0.32 S 1.78 T 0.31 M 0.36 I 1.06 B endl ",
+                    "hey jude", "H J"};
             break;
 
             case 5 :
-            song = {};
+            song = {"H T H H H H F A L"
+                    "S F T S W I C M A K"
+                    "D H A D B I A H A V"
+                    "A H H H H"};
             break;
 
             case 6 :
