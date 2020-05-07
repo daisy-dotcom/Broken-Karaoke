@@ -21,7 +21,7 @@ int reload_game(){
 
         else{
                 string input, played;
-                int size, round, points;
+                int size, genre, round, points;
                 int line_num = 0;
 
                 while ( getline(fin,input) ){
@@ -42,7 +42,7 @@ int reload_game(){
                                 break;
 
                                 case 4 :
-				played = input;
+				                        played = input;
                                 break;
 
 
@@ -67,10 +67,10 @@ int reload_game(){
                                 i++;
                         }
 
-                play_game(a, size, round, points);
+                play_game(a, size, genre, round, points);
 
                 delete [] a;
                 return 0;
         }
 
-}                        
+}

@@ -4,13 +4,13 @@
 // Confirms the chosen song to be guessed hasn't
 // been guessed already
 
-Game_Data pick_song( int a[], int size, int round){
+Game_Data pick_song( int a[], int size, int genre, int round){
 
         int match = size;
         int num;
 
         while ( match != 0 ){
-		
+
 		match = size;
 
                 num = random_number_generator();
@@ -24,7 +24,7 @@ Game_Data pick_song( int a[], int size, int round){
 
         a[round-1] = num;
 
-        Game_Data song = print_song(num);
+        Game_Data song = print_song(num, genre);
 
         return song;
 }
