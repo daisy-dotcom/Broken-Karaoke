@@ -25,7 +25,8 @@ void play_game(int a[], int size, int genre, int round, int points){
 
                 while ( !(is_answer(song.title, answer)) ){
 
-                                cout << "       Enter H for a hint , "
+                                cout << "       Incorrect!\n"
+                                        "       Enter H for a hint , "
                                         "C to continue guessing or Q to exit: ";
 
                                 char letter;
@@ -52,7 +53,9 @@ void play_game(int a[], int size, int genre, int round, int points){
 
                 }
 
-                cout << "       Correct! (: ++10PTS" << endl;
+                cout << "       Correct! (:\n"
+                        "       The song is \"" << song.title << "\"\n"
+                        "       ++10PTS" << endl;
                 points += 10;
 
                 ++round;

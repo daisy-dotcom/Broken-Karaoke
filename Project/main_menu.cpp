@@ -53,9 +53,10 @@ void main_menu(){
                                 "         1. Pop\n"
                                 "         2. R&B\n"
                                 "         3. Hip Hop/Rap\n"
-                                "         4. Rock\n"
-                                int genre;
-                                cin >> genre;
+                                "         4. Rock\n";
+
+                        int genre;
+                        cin >> genre;
 
                         while ( genre < 0 || genre > 4) {
                           cout << "       Invalid Input! Try again" << endl;
@@ -70,7 +71,6 @@ void main_menu(){
                                         case 1 :
                                         size = 2;
                                         break;
-
 
                                         case 2 :
                                         size = 4;

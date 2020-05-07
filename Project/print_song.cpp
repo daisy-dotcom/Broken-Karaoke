@@ -11,7 +11,7 @@ using namespace std;
 Game_Data print_song( int num, int genre){
 
         Game_Data song;
-        if (genre = 1) {
+        if (genre == 1) {
           switch(num){
 
             case 1 :
@@ -107,8 +107,8 @@ Game_Data print_song( int num, int genre){
 
 
 
-          }
-        } else if (genre = 2) {
+
+        } else if (genre == 2) {
           switch(num){
 
           case 1 :
@@ -182,14 +182,14 @@ Game_Data print_song( int num, int genre){
           case 8 :
           song = {"Y 0.24 C 0.29 F 0.27 I 0.28 I 0.66 T 0.51 S 0.62 endl "
                   "O 0.24 A 0.23 D 0.27 L 0.42 T 0.33 T 0.44 H 0.32 endl "
-                  "I 0.33 F 0.39 L 0.32 S 3.9 end l"
+                  "I 0.33 F 0.39 L 0.32 S 3.9 endl "
                   "I 0.20 F 0.39 L 0.32 S 3.9 endl "
                   "I 0.20 F 0.39 L 0.32 S endl ",
                   "feels like summer", "F L S"};
           break;
 
           }
-        } else if (genre = 3) {
+        } else if (genre == 3) {
           switch (num) {
             case 1 :
             song = {"Y 0.62 I 0.28 G 0.46 T 0.41 M 0.42 H 0.46 T 0.18 T 0.22 O 0.21 T 0.43 R 0.48 endl "
@@ -266,7 +266,7 @@ Game_Data print_song( int num, int genre){
             break;
 
           }
-        } else if (genre = 4) {
+        } else if (genre == 4) {
           switch (num) {
             case 1 :
             song = {"I 1.69 A 0.97 L 0.27 L 3.12 endl "
