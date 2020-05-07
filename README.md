@@ -10,7 +10,7 @@ Group 164
 The text-based game is a guessing game where the first letters of the words of a well-known part of 
 a song will be displayed. There is a delay between the output of two adjacent letters that will reflect
 the time interval between the words in the actual song. The goal of the game is to guess the title of the song
-based on this information. An added hint, the first letter of words in the title of the song, will be given upon the player's request. However, requesting them will result in a reduction of points. Each correct answer would increase the score by 10 points. Each clue costs 3 points. This game is inspired by the *Broken Karaoke* segment of the quiz show *Richard Osman's House of Games* (Bartlett, 2017). The game runs based on the assumption that the user gives the correct variable type when prompted e.g 1. New Game 2. Resume 3. Exit; an input of the integer 1 would start a new game.
+based on this information. An added hint, the first letter of words in the title of the song, will be given upon the player's request. However, requesting them will result in a reduction of points. Each correct answer would increase the score by 10 points. Each clue costs 3 points. This game is inspired by the *Broken Karaoke* segment of the quiz show *Richard Osman's House of Games* (Bartlett, 2017). The game runs based on the assumption that the user gives the correct variable type when prompted e.g for `1. New Game 2. Resume 3. Exit`, an input of the integer 1 would start a new game.
 
 ### 1. Generation of Random Game Sets/Events
 
