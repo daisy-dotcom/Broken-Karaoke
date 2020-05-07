@@ -14,7 +14,7 @@ based on this information. An added hint, the first letter of words in the title
 
 ### 1. Generation of Random Game Sets/Events
 
-There will be 3 levels of difficulty, namely, beginner, intermediate and expert and this selection will be made in the function main_menu. They will guess 2, 4 and 8 song titles respectively from a set of eight songs. A random number generator (rng.cpp) will be used to select which song to have the player guess. The songs will be numbered from 1 - 8.
+There will be 3 levels of difficulty, namely, beginner, intermediate and expert, along with 4 different genres: Pop, R&B, Hip Hop/Rap, and Rock. These selections will be made in the function main_menu. They will guess 2, 4 and 8 song titles, based on the difficulty chosen, from a set of eight songs in each genre. A random number generator (rng.cpp) will be used to select which song to have the player guess. The songs will be numbered from 1 - 8.
 
 ### 2. Dynamic Memory Management
 
@@ -26,7 +26,7 @@ chosen. The number of the song correctly guessed will be added to the array. The
 
 When the player chooses to save their current game, the player's progress out of the total number of song titles to be guessed 
 will be stored as an integer e.g ( 3/8 ; 3 out of 8 songs correctly guessed for an expert ) and the number of the correctly
-guessed songs will be determined from the aforementioned dynamic array. Another integer variable will store the current score. This information will be saved in a file, save.txt. To load a saved game, the program will first determine whether the file exists and if it does, proceeds to continue the game.
+guessed songs will be determined from the aforementioned dynamic array. Other integer variables will store the selected genre and the current score. This information will be saved in a file, save.txt. To load a saved game, the program will first determine whether the file exists and if it does, proceeds to continue the game.
 
 ### 4. Program Codes in Multiple Files
 
