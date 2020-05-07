@@ -310,22 +310,36 @@ Game_Data print_song( int num, int genre){
             break;
 
             case 5 :
-            song = {"H T H H H H F A L"
-                    "S F T S W I C M A K"
-                    "D H A D B I A H A V"
-                    "A H H H H"};
+            song = {"H 0.17 T 0.18 H 0.30 H 0.34 H 0.36 H 0.43 F 0.20 A 0.18 L 0.71 endl "
+                    "S 0.36 F 0.31 T 0.14 S 0.26 W 0.34 I 0.12 C 0.28 M 0.25 A 0.16 K 0.69 endl "
+                    "D 0.24 H 0.32 A 0.17 D 0.30 B 0.22 I 0.17 A 0.17 H 0.17 A 0.23 V 1.00 endl "
+                    "A 0.34 H 0.35 H 0.34 H 0.83 H endl ",
+                    "high hopes", "H H"};
             break;
 
             case 6 :
-            song = {};
+            song = {"I 0.12 O 0.24 T 0.22 H 1.65 T 0.15 H 1.93 endl "
+                    "O 0.20 T 0.15 H 1.60 T 0.19 H 2.36 endl "
+                    "H 1.60 T 0.17 H 1.68 endl "
+                    "I 0.12 O 0.24 T 0.22 H 1.65 T 0.15 H endl ",
+                    "highway to hell", "H T H"};
             break;
 
             case 7 :
-            song = {};
+            song = {"P 0.95 Y 0.18 M 0.15 M 0.15 A 0.43 Y 0.15 M 0.17 M 0.17 A 0.45 B 1.89 B 3.14 endl "
+                    "P 0.89 Y 0.19 B 0.15 M 0.27 D 0.20 A 0.18 B 0.17 M 0.14 U 0.49 B 1.85 B 2.06 endl "
+                    "P 0.18 O 0.17 L 0.16 T 0.13 B 0.55 F 0.40 O 0.16 L 0.19 T 0.17 R 1.89 endl "
+                    "M 0.15 L 0.32 M 0.14 L 0.32 M 0.14 D 0.39 I 0.14 C 0.25 F 1.18 endl "
+                    "P 0.95 Y 0.18 M 0.15 M 0.15 A 0.43 Y 0.15 M 0.17 M 0.17 A 0.45 B 1.89 B endl ",
+                    "believer", "B"};
             break;
 
             case 8 :
-            song = {};
+            song = {"I 0.87 B 0.67 S 0.57 N 0.75 I 0.13 C 0.27 F 0.49 Y 0.53 T 1.01 endl "
+                    "B 0.60 S 0.60 T 0.50 S 0.24 M 0.27 M 0.62 A 1.19 endl "
+                    "I 0.17 B 1.43 T 0.60 A 0.22 I 0.22 W 0.47 T 0.55 D 0.62 endl "
+                    "I 0.33 B 0.16 M 0.51 L 0.63 M 0.67 A 0.20 B 0.23 L 0.61 L 0.44 Y endl ",
+                    "numb", "N"};
             break;
           }
         }
